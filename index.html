@@ -12,20 +12,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>COUNT DOWN</h1>
+      <h1>COUNTER</h1>
       <div class="row">
         <div class="col-sm-12">
           <input type="text" id='count'>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
-          <button type="button" id='stop' onclick="stop()">STOP</button>
+        <div class="col-sm-4">
+          <button type="button" id='stop' onclick="stop()">DECREASE</button>
         </div>
-        <div class="col-sm-6">
-          <button type="button" id='stop' onclick="start()">START</button>
+        <div class="col-sm-4">
+          <button type="button" id='reset' onclick="reset()">RESET</button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" id='start' onclick="start()">INCREASE</button>
         </div>
       </div>
+      <footer>
+        <p>By Harshith Kumar</p>
+      </footer>
     </div>
     <script type="text/javascript" src="count.js">
 
